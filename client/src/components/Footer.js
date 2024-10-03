@@ -5,7 +5,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="App-footer">
-    <p>Group 6 is the GOAT dont @ me</p>
+    <p>Task-Tally: Turn Your To-Dos into To-Dones with a Dash of Fun!</p>
     </footer>
   );
 }
