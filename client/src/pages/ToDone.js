@@ -3,7 +3,6 @@ import { useQuery } from '@apollo/client';
 import { QUERY_TASKS } from '../utils/queries';
 import ToDoneItem from '../components/ToDoneItem';
 import Auth from '../utils/auth';
-import QuoteCard from "../components/QuoteCard";
 
 
 const ToDoneList = () => {
@@ -37,7 +36,6 @@ const ToDoneList = () => {
           ))}
         </ul>
         </div>
-        <QuoteCard />
       </div>
       ) : (
         <h1><a className="auth-login" href="/">Log in</a> to view your tally of completed tasks!</h1>

@@ -3,7 +3,6 @@ import { useQuery } from '@apollo/client';
 import Auth from '../utils/auth'
 // Pass in component
 import ToDoItem from '../components/ToDoItem';
-import QuoteCard from '../components/QuoteCard';
 import NewTodoForm from '../components/NewToDo';
 import { QUERY_TASKS } from '../utils/queries';
 
@@ -51,7 +50,6 @@ const TodoList = () => {
             </ul>
           </div>
           <NewTodoForm />
-          <QuoteCard />
         </div>
       ) : (
         <h1><a className="auth-login" href="/">Log in</a> to view your tally!</h1>
