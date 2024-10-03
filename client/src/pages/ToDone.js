@@ -23,7 +23,8 @@ const ToDoneList = () => {
 
   return (
     <div>
-      <h1>To-Done List</h1>
+      <h1>Wow, Look at All You've Accomplished! </h1>
+      <h2>Your To-Dones are Proof of Your Task-Tally Superpowers!</h2>
       {Auth.loggedIn() ? (
       <div className='to-do-page'>
         <div className="todo-list">

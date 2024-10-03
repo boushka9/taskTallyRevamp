@@ -26,7 +26,7 @@
 
   * Access the deployed application at https://task-tally.herokuapp.com/ 
 
-  * To run the app locally: Clone the code and from the root directory run `npm run install` for the dependencies, then `npm run develop`, and `npm run seed`
+  * To run the app locally: Clone the code and from the root directory run `npm run install` for the dependencies, then `npm run seed`, and `npm run develop`
 
   
   <img id="usage" src="./client/src/assets/usage.png" alt="Usage" width=240px>

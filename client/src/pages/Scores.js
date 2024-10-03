@@ -56,8 +56,8 @@ export const UserScores = () => {
     <div>
       {Auth.loggedIn() ? (
       <div className="scores-page">
-        <h1>Wow! You've gotten a lot done!</h1>
-        <h2>Keep tallying tasks and beat your current score!</h2>
+        <h1>Look at You Go!</h1>
+        <h2> Keep Tackling Tasks and Level Up Your Score!</h2>
         <div className="scores-container">
           <h1 className="current-score">Current Score: {checkScoreTotal}</h1>
           <h1 className="potential-score">Points left in your tally: {unCheckScoreTotal}</h1>

@@ -34,7 +34,8 @@ const TodoList = () => {
   if (renderError) return `Error Rendering Tasks! ${renderError.message}`;
   return (
     <div>
-      <h1>To-do List</h1>
+      <h1>Get Ready to Tackle Your To-Dos!</h1>
+      <h2> Every Task Checked Off Brings You One Step Closer to Tally Triumph!</h2>
       {Auth.loggedIn() ? (
         <div className='to-do-page'>
           <div className="todo-list">
